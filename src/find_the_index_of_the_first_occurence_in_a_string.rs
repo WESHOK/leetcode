@@ -1,7 +1,7 @@
 struct Solution;
 
 impl Solution {
-    pub fn str_str(haystack: String, needle: String) -> i32 {
+    fn str_str(haystack: String, needle: String) -> i32 {
         for (i, _c) in haystack.char_indices() {
             if haystack.len() - i >= needle.len() {
                 if haystack.get(i..i + needle.len()) == Some(&needle) {
