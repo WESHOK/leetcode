@@ -3,9 +3,7 @@ struct Solution;
 impl Solution {
     pub fn merge(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, _n: i32) {
         let temp = nums1[0..m as usize].to_vec();
-        for i in &temp {
-            print!("{} ", i);
-        }
+        
         nums1.clear();
         nums1.extend(temp);
         nums1.extend(nums2.to_vec());
