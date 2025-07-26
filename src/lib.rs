@@ -5,3 +5,5 @@ mod add_binary;
 mod climbing_stairs;
 mod merge_sorted_array;
 mod single_number;
+mod sqrt;
+mod two_sum;
