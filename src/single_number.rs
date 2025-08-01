@@ -9,11 +9,11 @@ impl Solution {
             for (idx2, i2) in nums.iter().enumerate() {
                 if idx2 != idx1 && i2 == i1 {
                     has_duplicate = true;
-                    break;
+                    break
                 }
             }
             if !has_duplicate {
-                res = *i1;
+                res = *i1
             }
         }
 

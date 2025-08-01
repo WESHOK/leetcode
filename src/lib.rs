@@ -7,3 +7,5 @@ mod merge_sorted_array;
 mod single_number;
 mod sqrt;
 mod two_sum;
+mod longest_common_prefix;
+mod add_two_numbers;
