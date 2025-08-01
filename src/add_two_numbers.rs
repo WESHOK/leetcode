@@ -6,9 +6,9 @@ impl Solution {
     pub fn add_two_numbers(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut res = vec![];
 
-        while let Some(node1) = l1 {
-            node1.next = 
-        }
+        // while let Some(node1) = l1 {
+        //     node1.next = 
+        // }
 
         res.sort();
 

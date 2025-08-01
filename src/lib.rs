@@ -9,3 +9,4 @@ mod sqrt;
 mod two_sum;
 mod longest_common_prefix;
 mod add_two_numbers;
+mod longest_palindromic_substring;
